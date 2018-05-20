@@ -1,0 +1,10 @@
+Ýzmir deki 7 üniversite Rapidminer ýn web crawlerý ile çekildi.
+Crawlar yapýlýrken üniversitelerin urlsine denk gelen regexler ile site içeriði bilgilerinin gelmesi saglandý.
+Projemizdeki TextClear ile veriler temizlenip kelime kökleri ve kelimenin o text içerisindeki adeti tf ve tfIdf hesaplandý.
+SearchEngine için  herhangi kelimenin girilmesi halinde hesaplanmasý gereken Idf degerini daha önce hesaplayarak dosyaya nextIdf olarak kaydettik.
+SearchEngine uygulamasýnda ise girilen kelimenin tf ile  eþleþtigi kelimenin nextIdf kullanarak tfIdf hesaplandý.
+Cosine benzerligi kullanýlarak  dökümanlar arasýndaki benzerlik hesaplandý ve en büyük 20 si liste gösterildi linke týklandýgýnda web browserda açýlmasý saglandý.
+
+/// Sunumda hatalý çýkan raporlar düzeltilerek eklendi
+Aþagýdaki linkten temizlenmiþ veriye ulaþark kullanabilirsinz. ilk dosya olarak clearweb klasörü okutulmalý ikinci klasör seçmede universitytfIdf seçilmeli.
+https://drive.google.com/open?id=1vzuABhPu2TN54xEwAteyKIYXr3ry2pM4
